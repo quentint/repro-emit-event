@@ -1,4 +1,4 @@
-<div style="display: flex; justify-content: space-between;">
+<div {{ attributes }} style="display: flex; justify-content: space-between;">
     <div>Is Toggled? {{ this.isToggled ? '✅' : '🚫' }}</div>
     {% block content %}{% endblock %}
 </div>
